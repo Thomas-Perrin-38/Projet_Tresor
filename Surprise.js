@@ -1,4 +1,6 @@
 
+//But -> avoir plusieurs cases trésors sans que se soit des trésors
+
 class Surprise {
     constructor(desc, x, y, Good, End, bonus) {
         this.description = desc

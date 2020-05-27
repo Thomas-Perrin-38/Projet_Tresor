@@ -87,6 +87,9 @@ function initTab() {
 }
 
 
+
+
+/*
 let nbCaseX = 10
 let nbCaseY = 10
 let nbCase = nbCaseX*nbCaseY
@@ -102,4 +105,4 @@ for(let i=0; i<nbCase; i++){
 tableEvent.forEach(element => {
 
     console.log(element.description)
-});
+});*/
