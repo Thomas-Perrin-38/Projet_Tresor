@@ -1,0 +1,54 @@
+/* format tableau */
+#fondtable {
+    background-image: url(mer.png);
+    background-size: auto;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    
+    }
+
+/* Largeur et hauteur des cases de la grille */
+td {
+    width:80px;
+    height:60px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    
+    }
+
+/* Gestion des blocs de classe "cadre" */
+.cadre {
+    display: inline-block;
+    width: 450px;
+    margin: 1em;
+    font-size: 18px;
+    
+    }
+
+/* Couleurs des cases, avec opacité de 0.9 */
+.bad {
+    background:rgba(255, 0, 0, 0.404);
+    }
+.good {
+    background:rgba(43, 255, 0, 0.404);
+    }
+    
+#poisson{
+    width:40px;
+    height:40px;
+}
+
+@font-face{
+    font-family: "Titre";
+    src: url('PoseiAOE.ttf');
+}
+
+h1{
+    font-family: "Titre";
+    font-style: normal;
+    font-size: 65px;
+}
+
