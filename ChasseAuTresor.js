@@ -1,5 +1,4 @@
 
-
 // Tableau2D renvoit un objet tableau en 2D
 function Tableau2D(x, y) {
 	var array2D = new Array(x);
@@ -28,7 +27,6 @@ function choix(id) {
 		com("<br/>La ligne est bonne ");
 		caseTable.setAttribute('class', 'ligne');       //change la couleur
 		caseTable.setAttribute('onclick', '');
-		compteur++;
 		
 
 	//clique sur la bonne colonne
@@ -37,7 +35,6 @@ function choix(id) {
 		com("<br/>La  colonne est bonne ");
 		caseTable.setAttribute('class', 'colonne');     //change la couleur
 		caseTable.setAttribute('onclick', '');
-		compteur++;
 		
 
 	} else {
