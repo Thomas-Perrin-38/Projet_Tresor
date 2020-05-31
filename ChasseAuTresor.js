@@ -100,23 +100,3 @@ function initTab() {
 	return monTableau;
 }
 
-
-
-
-/*
-let nbCaseX = 10
-let nbCaseY = 10
-let nbCase = nbCaseX*nbCaseY
-
-let tableEvent = []
-
-//boucle de remplissage du tableau
-for(let i=0; i<nbCase; i++){
-    let temp = new Surprise ("text"+i,5,5,0,0,0)
-    tableEvent.push(temp)
-}
-
-tableEvent.forEach(element => {
-
-    console.log(element.description)
-});*/

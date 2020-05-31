@@ -1,3 +1,4 @@
+
 class Surprise {
     constructor(text, x, y, End, bonus) {
         this.description = text
