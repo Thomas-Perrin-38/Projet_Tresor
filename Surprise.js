@@ -7,4 +7,10 @@ class Surprise {
         this.fin = End
         this.nbreEssai = bonus
     }
+    setLog(texte){
+        this.descLog = texte;
+    }
+
 }
+
+//
