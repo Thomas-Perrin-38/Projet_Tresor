@@ -27,6 +27,15 @@ td {
     font-size: 18px;
     
     }
+/*Couleur de la bonne colonne*/
+.colonne {
+    background-color: rgba(255, 127, 80, 0.404);
+}
+
+/*Couleur de la bonne colonne*/
+.ligne{
+    background-color: rgba(0, 0, 139, 0.404);
+}
 
 /* Couleurs des cases, avec opacité de 0.9 */
 .bad {

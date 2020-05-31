@@ -1,5 +1,4 @@
 
-//Aidé par Lucas sur certain points du scripte
 
 // Tableau2D renvoit un objet tableau en 2D
 function Tableau2D(x, y) {
@@ -23,6 +22,24 @@ function choix(id) {
 				document.getElementById(caseId).setAttribute('onclick','');
 			}
 		}
+	//clique sur la bonne ligne
+	} else if (id == coordonneeX + "-0" || id == coordonneeX + "-1" || id == coordonneeX + "-2" || id == coordonneeX + "-3" || id == coordonneeX + "-4" || id == coordonneeX + "-5" || id == coordonneeX + "-6" || id == coordonneeX + "-7"){
+		
+		com("<br/>La ligne est bonne ");
+		caseTable.setAttribute('class', 'ligne');       //change la couleur
+		caseTable.setAttribute('onclick', '');
+		compteur++;
+		
+
+	//clique sur la bonne colonne
+	} else if (id == "0-" + coordonneeY || id == "1-" + coordonneeY || id == "2-" + coordonneeY || id == "3-" + coordonneeY || id == "4-" + coordonneeY || id == "5-" + coordonneeY || id == "6-" + coordonneeY || id == "7-" + coordonneeY){
+
+		com("<br/>La  colonne est bonne ");
+		caseTable.setAttribute('class', 'colonne');     //change la couleur
+		caseTable.setAttribute('onclick', '');
+		compteur++;
+		
+
 	} else {
 		com("<br/> Essaies encore ce n'est pas la bonne case !");
 		caseTable.setAttribute('class', 'bad');

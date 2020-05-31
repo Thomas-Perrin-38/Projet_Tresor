@@ -1,23 +1,9 @@
-
-//But -> avoir plusieurs cases trésors sans que se soit des trésors
-
 class Surprise {
-    constructor(desc, x, y, Good, End, bonus) {
-        this.description = desc
+    constructor(text, x, y, End, bonus) {
+        this.description = text
         this.x = x
         this.y = y
-        this.fin = Good + End<<1
-        this.nbreHeure = bonus
-    }
-
-    // Methodes
-    setLog(texte) {
-        this.descLog = texte
-    }
-    isGood() {
-        return fin & 0x01
-    }
-    isEnd() {
-        return fin>>1 & 0x1
+        this.fin = End
+        this.nbreEssai = bonus
     }
 }
